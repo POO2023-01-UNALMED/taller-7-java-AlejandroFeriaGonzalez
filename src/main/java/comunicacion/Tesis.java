@@ -32,7 +32,7 @@ public class Tesis extends Escrito {
                 getAutor() + "\n" +
                 getPaginas() + "\n" +
                 getIdea() + "\n" +
-                getArgumentos() + "\n" +
+                getArgumentos().length + "\n" +
                 getConclusion() + "\n" +
                 getReferencias();
     }
