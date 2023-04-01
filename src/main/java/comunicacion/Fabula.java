@@ -16,16 +16,16 @@ public class Fabula extends Escrito {
 
     @Override
     public String interpretacion() {
-        return getOrigen() + "\n" +
-                getTitulo() + "\n" +
-                getAutor() + "\n" +
-                getPaginas() + "\n" +
-                getEnsenanza();
+        return interpretacion;
     }
 
     @Override
     public String toString() {
-        return null;
+        return getOrigen() + "\n" +
+        getTitulo() + "\n" +
+        getAutor() + "\n" +
+        getPaginas() + "\n" +
+        getEnsenanza();
     }
 
     // *getter y setters */
