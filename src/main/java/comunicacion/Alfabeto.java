@@ -32,7 +32,4 @@ public class Alfabeto extends Pictograma {
 
         return alfabeto;
     }
-
-        return alfabeto;
-    }
 }
